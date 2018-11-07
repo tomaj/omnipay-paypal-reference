@@ -1,0 +1,38 @@
+{
+  "name": "rootpd/omnipay-paypal-reference",
+  "type": "library",
+  "description": "Omnipay Paypal extension for reference transactions support",
+  "keywords": [
+    "paypal",
+    "reference transaction",
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment"
+  ],
+  "homepage": "https://github.com/rootpd/omnipay-paypal-reference",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Peter Dulacka",
+      "email": "dulacka@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\PaypalReference\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.1",
+    "omnipay/common": "~2.0",
+    "omnipay/paypal": "^2.6"
+  },
+  "require-dev": {
+    "omnipay/tests": "~2.0"
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
