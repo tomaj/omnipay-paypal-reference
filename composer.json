@@ -1,7 +1,7 @@
 {
   "name": "rootpd/omnipay-paypal-reference",
   "type": "library",
-  "description": "Omnipay Paypal extension for reference transactions support",
+  "description": "Omnipay PayPal extension for reference transactions support",
   "keywords": [
     "paypal",
     "reference transaction",
@@ -21,7 +21,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Omnipay\\PaypalReference\\": "src/"
+      "Omnipay\\PayPalReference\\": "src/"
     }
   },
   "require": {
