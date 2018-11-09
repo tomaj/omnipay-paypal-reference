@@ -17,6 +17,7 @@ class DoReferenceTransactionRequest extends AbstractRequest
         $data['METHOD'] = 'DoReferenceTransaction';
         $data['REFERENCEID'] = $this->getParameter('referenceId');
         $data['AMT'] = $this->getAmount();
+        $data['CURRENCYCODE'] = $this->getCurrency();
         $data['PAYMENTACTION'] = 'Sale';
 
         return $data;
