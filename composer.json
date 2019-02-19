@@ -1,5 +1,5 @@
 {
-  "name": "rootpd/omnipay-paypal-reference",
+  "name": "tomaj/omnipay-paypal-reference",
   "type": "library",
   "description": "Omnipay PayPal extension for reference transactions support",
   "keywords": [
